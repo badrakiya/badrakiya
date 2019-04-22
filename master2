@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>
+	DIAMONDEXCH
+</title>
+    <link rel="icon" type="ico" href="/images/favicon.ico" />
+    <link href="/css/login.css" rel="stylesheet" />
+    <link href="/css/bootstrap.css" rel="stylesheet" />
+    <link href="/css/style.css?v=1.4" rel="stylesheet" type="text/css" />
+    <script src="/js/jquery.min.js?v=1.0"></script>
+        <script src="/js/bootstrap.min.js"></script>
+</head>
+<style>
+    ol > li {
+        padding: 5px 0px;
+    }
+</style>
+<script type="text/javascript">
+    function ShowPopup() {
+        $('#homemodal').modal({ show: true, backdrop: 'static', keyboard: false });
+    }
+</script>
+<body >
+    <form method="post" action="./" onsubmit="javascript:return WebForm_OnSubmit();" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'LinkButton1')" id="form1" autocomplete="off">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTQ0MzgyNDQzNmRkX0kfwxryMcqSEOdLbu5NfecDc0Y=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=Vm5nDePYGbyY3eF_HUEQ8e79_1EJ_XetBtQVJBI_H8Y6MXfzIrREwHOCPQzCu8hcSAdObZgHLHBIOVAhtP6duSPVPNA1&amp;t=636776923224055265" type="text/javascript"></script>
+
+
+<script src="/WebResource.axd?d=9faqgoidBzl31L4F5Me6Pp0uydeH14e2mYJ6siNK39XSUirouQY4xnLiTxHMWTSfbv7lq__lm_lJFt3siV5MmOEtHzE1&amp;t=636776923224055265" type="text/javascript"></script>
+<script src="/WebResource.axd?d=WEMHaD-2EbQRUr_muRpWpenawaaRcK3jv9OhlSI3ikSSXmbdgq_EQd1q06Rzif2l3GJ-ulTUUlSwdPqGL4NXj33Qnlo1&amp;t=636776923224055265" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="90059987" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAYJlnzXgnrhFYDVlT6wy58eWfb+Jk/ZvTy6gvP26046Ey/yb/VVqFmvGO/9JabxfEuZf5MUp2golT/J9ICuDcwjtTfNpOz0CH4vKngBfzxDIc34O/GfAV4V4n0wgFZHr3d7on8cAG3GoThyFWBKuqZWgHbGHQ==" />
+</div>
+        <div class="background_dots">
+
+
+            <div class="loginModule">
+                <div class="extraBorder">
+                    <div class="form">
+                        <div class="col-sm-12 text-center">
+                            <div class="llogo">
+                                <a href="/">
+                                    <img src="/images/logo.png" class="img-responsive" alt="Logo" /></a>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="">
+                            <div class="clearfix"></div>
+                            <div class="form-input  form-group">
+                                <input name="txt_phone" type="text" id="txt_phone" tabindex="1" class="form-control" required="required" placeholder="User Name" /><span id="RequiredFieldValidator1" class="txt-required" style="color:Red;display:none;">Please Enter userName</span>
+                            </div>
+                            <div class="form-input form-group">
+
+                                <input name="txt_password" type="password" id="txt_password" tabindex="2" class="form-control" required="required" placeholder="Password" /><span id="RequiredFieldValidator2" class="txt-required" style="color:Red;display:none;">Please Enter Password</span>
+                            </div>
+                            <div class="form-input form-group cap-wrap">
+                                <img src="Captcha.aspx" />
+                                <input name="txtCaptcha" type="text" id="txtCaptcha" tabindex="3" class="form-control" required="required" placeholder="Enter Code" />
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" name="LinkButton1" value="Log In" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;LinkButton1&quot;, &quot;&quot;, true, &quot;lg&quot;, &quot;&quot;, false, false))" id="LinkButton1" />
+                            </div>
+                            <div class="clearfix"></div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="modal fade " id="homemodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Terms & Conditions Agreement</h5>
+                    </div>
+                    <div class="modal-body">
+                        <ol style="font-size: 10px">
+                            <li>Invalid bets will be deleted automatically or manually and there will be no claim available for such bets.</li>
+                            <li>In case any dispute, admin has the right to take the final decision.</li>
+                            <li>If a match got cancelleddue to rain, all completed fancy/session markets will be settled.</li>
+                            <li>Invalid bet (bets with unfair rate) can be deleted even after settling. There will be no cliam.</li>
+                            <li>There can be some technical issues in the software. Admin is not responsible for such cases, play at your own risk.</li>
+                            <li>In a case of a tied match, all completed session market will be settled.</li>
+                        </ol>
+                    </div>
+                    <div class="modal-footer">
+                        <a id="Button1" class="btn btn-default" href="javascript:__doPostBack(&#39;Button1&#39;,&#39;&#39;)">Accept</a>
+
+                    </div>
+                </div>
+            </div>
+            <script>$("#warning-alert").fadeTo(2000, 500).slideUp(500, function () { $("#warning-alert").alert('close'); });</script>
+            <script type="text/javascript">
+                history.pushState(null, null, location.href);
+                window.onpopstate = function () {
+                    history.go(1);
+                };
+            </script>
+    
+<script type="text/javascript">
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("RequiredFieldValidator1"), document.getElementById("RequiredFieldValidator2"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var RequiredFieldValidator1 = document.all ? document.all["RequiredFieldValidator1"] : document.getElementById("RequiredFieldValidator1");
+RequiredFieldValidator1.controltovalidate = "txt_phone";
+RequiredFieldValidator1.focusOnError = "t";
+RequiredFieldValidator1.errormessage = "Please Enter userName";
+RequiredFieldValidator1.display = "Dynamic";
+RequiredFieldValidator1.validationGroup = "lg";
+RequiredFieldValidator1.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator1.initialvalue = "";
+var RequiredFieldValidator2 = document.all ? document.all["RequiredFieldValidator2"] : document.getElementById("RequiredFieldValidator2");
+RequiredFieldValidator2.controltovalidate = "txt_password";
+RequiredFieldValidator2.focusOnError = "t";
+RequiredFieldValidator2.errormessage = "Please Enter Password";
+RequiredFieldValidator2.display = "Dynamic";
+RequiredFieldValidator2.validationGroup = "lg";
+RequiredFieldValidator2.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator2.initialvalue = "";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        WebForm_AutoFocus('LinkButton1');//]]>
+</script>
+</form>
+</body>
+</html>
